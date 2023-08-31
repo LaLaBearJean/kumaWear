@@ -1,0 +1,20 @@
+.amount {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: $brown;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  transform: translateY(-50%);
+}
+@include media-breakpoint-up(lg) { 
+  .amount {
+    top: 0;
+    transform: translateY(-35%);
+  }
+}

@@ -1,0 +1,12 @@
+.scrolltop{
+  display: inline-block;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 4px;
+  background-color: $gray-100;
+  color: #000;
+  &:hover{
+    color: $brown;
+  }
+}
