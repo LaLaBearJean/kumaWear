@@ -1,5 +1,5 @@
 <template>
-  <header class="header mb-5 d-flex justify-content-center align-items-center bg-attachment-fixed bg-size-cover bg-position-center" :style="{backgroundImage: 'url('+ banner +')'}">
+  <header class="header mb-5 d-flex justify-content-center align-items-center bg-size-cover bg-position-center" :style="{backgroundImage: 'url('+ banner +')'}">
     <div class="p-3 text-center text-light bg-dark-gradient">
       <h2>KumaWear選品小店</h2>
       <p class="h4">天然 x 舒適 x 簡約</p>
